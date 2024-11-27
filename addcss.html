@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expanded CSS Styling</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Internal CSS */
+
+        /* Styling all headings using element selector */
+        h1, h2, h3 {
+            font-family: 'Arial', sans-serif;
+            color: darkslateblue;
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        /* Styling paragraphs */
+        p {
+            text-align: justify;
+            margin: 10px 20px;
+            line-height: 1.8;
+            font-size: 1em;
+        }
+
+        /* Class selector for sections */
+        .highlight {
+            background-color: lightyellow;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px;
+        }
+
+        /* ID selector for a unique element */
+        #special {
+            background-color: coral;
+            color: white;
+            padding: 15px;
+            margin: 15px;
+            border: 2px solid darkred;
+            border-radius: 8px;
+        }
+
+        /* Styling list items */
+        ul {
+            margin: 20px;
+            padding: 0;
+            list-style-type: square;
+        }
+
+        ul li {
+            font-size: 1.2em;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Styled Page</h1>
+        <h2>Exploring CSS Styling Techniques</h2>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="highlight">
+        <h3>About Us</h3>
+        <p>
+            We are a team of web enthusiasts dedicated to delivering beautiful and functional web designs. This page demonstrates the use of CSS for styling HTML elements effectively.
+        </p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="highlight">
+        <h3>Our Services</h3>
+        <ul>
+            <li>Web Design and Development</li>
+            <li>SEO Optimization</li>
+            <li>Content Creation</li>
+            <li>Digital Marketing</li>
+        </ul>
+    </section>
+
+    <!-- Unique Section -->
+    <section id="special">
+        <h3>Special Section</h3>
+        <p>This section uses an ID selector for unique styling, demonstrating the use of borders, colors, and padding.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p style="color: teal; text-align: center;">&copy; 2024 My Styled Page | All rights reserved.</p>
+    </footer>
+</body>
+</html>

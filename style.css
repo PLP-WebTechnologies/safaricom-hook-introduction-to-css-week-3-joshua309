@@ -1,0 +1,36 @@
+/* Global Styles */
+body {
+    background-color: #f9f9f9; /* Light background */
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Link styling */
+a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+
+a:hover {
+    color: crimson;
+}
+
+/* Navigation styling */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    background-color: #ddd;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-size: 1.2em;
+}
